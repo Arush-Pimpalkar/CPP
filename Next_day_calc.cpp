@@ -28,7 +28,7 @@ int main(){
 		printf("%d / %d / %d",c,a,b);// last day + feb + not a leap year
 	}
 	else if(c < 28 && a == 2 && (b%4 == 0 && ( b%400 == 0 || b%100 !=0))){
-		a++;
+		c++;
 		printf("%d / %d / %d",c,a,b); //not last day + feb + not a leap year
 	}
 
